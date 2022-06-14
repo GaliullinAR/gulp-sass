@@ -1,0 +1,36 @@
+main,
+aside,
+article,
+footer,
+header,
+div {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, a, span, button, input, ul, li {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+a, button, input {
+  cursor: pointer;
+}
+
+button, input {
+  outline: none;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+a { 
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
